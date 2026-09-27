@@ -1,0 +1,10 @@
+inherit: e011_hop.yaml
+exp_id: e011_mini
+parent: e011
+note: "super-fast e011: 1 fold, 1 seed, 200 iters cap, workers=1"
+workers: 1
+threads: 1
+model:
+  cv: {folds: 3, n_estimators: 200, early_stop: 20}
+  full_iter_mult: 0.5
+test_query_chunk: 30000

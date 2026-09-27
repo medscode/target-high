@@ -1,0 +1,8 @@
+inherit: e011_hop.yaml
+exp_id: e011_tiny
+parent: e011
+note: "e011 hop, 1 seed, smallest query chunk"
+model:
+  cv: {folds: 3, n_estimators: 300, early_stop: 30}
+  full_iter_mult: 0.7
+test_query_chunk: 30000
