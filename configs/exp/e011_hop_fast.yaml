@@ -1,0 +1,8 @@
+inherit: e011_hop.yaml
+exp_id: e011_fast
+parent: e011
+note: "e011 hop + 3-fold OOF (vs 5), 1 seed (vs 3), tighter n_estimators cap for a fast end-to-end pipeline"
+model:
+  cv: {folds: 3}
+  full_iter_mult: 0.9
+test_query_chunk: 100000

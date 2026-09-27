@@ -5,9 +5,9 @@ note: "base config"
 workers: 7            # processes for normalisation / features
 threads: 7            # threads for sparse top-k retrieval
 paths:
-  data_dir: C:/Users/chhav/ber_work/data   # outside OneDrive (sync was eating 4 GB RAM)
-  work_dir: C:/Users/chhav/ber_work/work   # normalised parquet (cached by code hash)
-  cache_dir: C:/Users/chhav/ber_work/cache
+  data_dir: /Users/ravipandey/Downloads/student_resource/dataset
+  work_dir: /Users/ravipandey/Dev/Personal/target-high/work
+  cache_dir: /Users/ravipandey/Dev/Personal/target-high/cache
   results_dir: results
   submissions_dir: submissions
   validator: ../student_resource/utils/validate_submission.py

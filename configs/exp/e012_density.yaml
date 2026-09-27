@@ -3,5 +3,5 @@ exp_id: e012
 parent: e011
 note: "e011 + training/threshold weights matching the test set's decoy density (rank normalisation dropped: hurt transfer)"
 model:
-  weight_file: C:/Users/chhav/ber_work/cache/density_w_e011.parquet
+  weight_file: /Users/ravipandey/Dev/Personal/target-high/cache/density_w_e011.parquet
 test_query_chunk: 100000
